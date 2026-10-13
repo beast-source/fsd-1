@@ -1,0 +1,11 @@
+
+CREATE DATABASE student_db3;
+
+USE student_db3;
+
+CREATE TABLE students3 (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    course VARCHAR(100) NOT NULL
+);
