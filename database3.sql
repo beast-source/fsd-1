@@ -1,9 +1,8 @@
-
-CREATE DATABASE student_db3;
+CREATE DATABASE IF NOT EXISTS student_db3;
 
 USE student_db3;
 
-CREATE TABLE students3 (
+CREATE TABLE IF NOT EXISTS students (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
